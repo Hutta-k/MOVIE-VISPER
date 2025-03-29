@@ -7,9 +7,9 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Put session id' : process.env.SESSION_ID, 
-GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? 'put github auth token' : process.env.GITHUB_AUTH_TOKEN,  //🛑 Github token එක දැමීමේදී ghp_  කොටස ඉවර් කර දමන්න.  
-GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'Github user name' : process.env.GITHUB_USER_NAME, // 🛑 Github user name එක ගද්දි ඔයාලා token එක ගත්ත Github එකේ user name එක දාන්න අනිවාරෙන්
+SESSION_ID: process.env.SESSION_ID === undefined ? 'KeJGzZLR#QVWPReyqv-vACSLlrigWc4jxOdTpEdy76tFrV4u__EQ' : process.env.SESSION_ID, 
+GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '4ToB1KmonINdiSwcnLGsytZIb2jxaB2NvPB5' : process.env.GITHUB_AUTH_TOKEN,  //🛑 Github token එක දැමීමේදී ghp_  කොටස ඉවර් කර දමන්න.  
+GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'Hutta-k' : process.env.GITHUB_USER_NAME, // 🛑 Github user name එක ගද්දි ඔයාලා token එක ගත්ත Github එකේ user name එක දාන්න අනිවාරෙන්
 PORT: process.env.PORT === undefined ? '8000' : process.env.PORT, 
 
 
